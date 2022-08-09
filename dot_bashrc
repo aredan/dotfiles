@@ -134,3 +134,7 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 # tanzu completion
 source /home/ariel/.config/tanzu.bash
+
+# task completion
+source /home/ariel/bin/completion/bash/task.bash
+# 
