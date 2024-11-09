@@ -1,3 +1,3 @@
-# dotfiles
+### dotfiles
 
-My dotfiles managed by chezmoi
+My dotfiles managed by stow.
