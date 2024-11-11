@@ -129,6 +129,7 @@ alias rm='rm -i -v'
 
 # direnv
 eval "$(direnv hook zsh)"
+export DIRENV_LOG_FORMAT=$'\033[2mdirenv: %s\033[0m'
 
 # ~/.zshrc or ~/.profile
 command -v flux >/dev/null && . <(flux completion zsh)
