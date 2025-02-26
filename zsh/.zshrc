@@ -112,6 +112,9 @@ PROMPT='$(kube_ps1 )'$PROMPT # or RPROMPT='$(kube_ps1)'
 
 # .aa
 
+# fzf
+FZF_DEFAULT_OPTS="--layout=reverse --border=bold --border=rounded --margin=3% --color=dark"
+
 alias k=kubectl
 source <(kubectl completion zsh)
 complete -o default -F __start_kubectl k
